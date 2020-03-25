@@ -1,0 +1,5 @@
+DB: Knex (Ver Documentação)
+
+Pegar o id da ong pelo cabeçalho da requisição.
+
+Retornar o erro http correto para cada caso.
