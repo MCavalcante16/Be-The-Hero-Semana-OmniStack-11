@@ -30,7 +30,7 @@ export default function Incidents() {
         //Se ainda há o que carregar e não está em loading, entao, adiciona a próxima pagina
         setLoading(true);
         const response = await api.get('/incidents', {
-            params: page
+            params: { page }
         });
         setIncidents([ ... incidents, ... response.data]);
         setTotal(response.headers['x-total-count']);
