@@ -3,3 +3,31 @@ DB: Knex (Ver Documentação)
 Pegar o id da ong pelo cabeçalho da requisição.
 
 Retornar o erro http correto para cada caso.
+
+
+axios para conectar bancos
+
+expo para mobile e apis mobile
+expo-navigation para navegar entre telas no mobile
+useHistory para navegar entre telas no web
+
+
+celebrate para validação
+jest para testes 
+Aconselhado: principios TDD (Primeiro testes, depois criar o modulo para ser testado)
+
+
+um arquivo para cada teste 
+
+cross-env para testar o db
+
+supertest para testar as rotas (separar um arquivo so pro app.listen pra que o test nao invoque ele) 
+
+é necessário programar uma conexão exclusiva para testes, com a separação da conexão, adicionando um condicional na obtenção da configuração de conexão
+
+
+
+Para deploy:
+	back: heroku(easy) - digitalOcean(hard
+	front: netlify(easy)
+	mobile: criar apk no tutorial da omnistack
