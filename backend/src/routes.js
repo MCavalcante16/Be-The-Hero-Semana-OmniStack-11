@@ -7,7 +7,7 @@ const sessionController = require('./controllers/SessionController');
 
 
 //Validação
-const { celebrate/*container de validacoes*/, Segments/*Variaveis de tipos de validacoes*/, Joi/*tipos de validacoes*/} = require('celebrate');
+const { celebrate/*container de validacoes*/, Segments/*Tipos de validacoes*/, Joi/*Validacoes*/} = require('celebrate');
 
 //Conexão com o bando de dados
 const connection = require('./database/connection')
